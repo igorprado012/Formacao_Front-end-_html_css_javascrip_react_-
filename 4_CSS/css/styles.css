@@ -1,0 +1,484 @@
+/* 4- External */
+body {
+  padding-bottom: 500px;
+}
+
+h3 {
+  color: green;
+}
+/* Deixe comentado aqui que é para eu testar minhas proprias veriacoes */
+/* p{
+    color: blueviolet;
+    font-size: 12px;
+} */
+
+/* primeiro comentario */
+/* segundo comentario */
+/* terceiro comentario */
+
+/* classes */
+.paragrafo {
+  background-color: black;
+  color: aqua;
+  padding: 5px;
+}
+
+/* ID */
+#exclusivo_id {
+  background-color: silver;
+  color: rgba(23, 21, 21, 0.865);
+  padding: 5px;
+}
+p {
+  font-size: 40px;
+}
+/* Ordem da regras */
+h2 {
+  border-bottom: 2px solid red;
+}
+
+.titulo {
+  border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+  border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+.color-name {
+  color: rgb(174, 21, 51);
+}
+
+/* Hex */
+
+.hex {
+  color: #551203;
+}
+.hex-2 {
+  color: #818141;
+}
+
+/* Aprofundando em hex */
+.simple-hex {
+  color: #123;
+}
+
+/* Color com RGB */
+.rgb {
+  color: rgb(255, 0, 0);
+}
+.rgb2 {
+  color: rgb(24, 44, 12);
+}
+
+/* Color com RGBA */
+
+.rgba {
+  color: RGBA(255, 0, 0, 0.1);
+}
+
+/* Color com HSL */
+
+.HSL {
+  color: hsl(100, 20%, 80%);
+}
+.HSL2 {
+  color: hsl(999, 60%, 91%);
+}
+
+/* background */
+
+.bg {
+  background-color: #123;
+  color: aquamarine;
+}
+
+.bg-2 {
+  background-color: #818141;
+  color: rgb(24, 44, 12);
+}
+
+/* Opacity */
+.bg-opacity {
+  background-color: black;
+  opacity: 0.2;
+}
+.bg-opacity2 {
+  background-color: red;
+  opacity: 0.5;
+}
+
+/* rgba com opacidade */
+.rgba-opacity {
+  background-color: rgba(90, 120, 21, 0.2);
+  color: rgb(35, 182, 182);
+}
+
+/* bg image */
+.bg-image {
+  background-image: url("../img/teste.jpg");
+  padding: 10px;
+  color: aliceblue;
+}
+
+/* Centralizando bg image */
+
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/teste1.jpg");
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+/* altura e largura */
+.height-width {
+  height: 200px;
+  width: 100px;
+  background-color: #551203;
+}
+
+.height-width-2 {
+  height: 300px;
+  background-color: #123;
+}
+
+/* Padding */
+.without-padding {
+  background-color: #123;
+  color: aliceblue;
+}
+.without {
+  background-color: #818141;
+  padding: 20px;
+}
+
+/* padding individual */
+.padding-individual {
+  background-color: black;
+  color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+/* shorthand padding */
+.shorthand-padding {
+  background-color: #551203;
+  /* ondem é top, lefth,bottom and right */
+  padding: 6px 20px 18px 26px;
+}
+.shorthand-padding-2 {
+  background-color: #551203;
+  /* ondem é top bottom, lefth right  */
+  padding: 10px 20px;
+}
+
+/* padding com width */
+.without-border-box {
+  background-color: #d716c7;
+  color: aliceblue;
+  width: 400px;
+  padding: 50px;
+}
+.border-box {
+  background-color: #d716c7;
+  color: aliceblue;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* Border */
+.border {
+  /*largura, aparencia, cor*/
+  border: 5px solid red;
+  padding: 10px;
+}
+.border-2 {
+  /*largura, aparencia, cor*/
+  border: 2px dotted green;
+  padding: 30px;
+}
+
+/* Border individuais */
+.border-left {
+  border-left: 5px solid rgb(198, 41, 41);
+  background-color: #d716c7;
+  padding: 25px;
+}
+.border-bottom {
+  border-bottom: 5px double rgb(62, 212, 232);
+  background-color: #d716c7;
+  padding: 25px;
+}
+
+/* Bordar arredondada */
+
+.rounded-p {
+  border: 4px solid blue;
+  background-color: #120a11;
+  color: red;
+  padding: 15px;
+  border-radius: 20px;
+}
+.rounded-p-2 {
+  background-color: #120a11;
+  color: red;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+/* margem */
+.margin {
+  margin: 10px;
+  background-color: aqua;
+  color: #551203;
+}
+.margin-top {
+  margin-top: 20px;
+  background-color: aqua;
+  color: #551203;
+  padding: 15px;
+}
+.margin-shorthand {
+  background-color: aqua;
+  margin: 5px 10px 15px 20px;
+}
+
+/* Box model */
+.box-model {
+  /* Aqui eu coloquei meus proprios valores na letra, pois comentei os padrão exercido antes */
+  margin: 20px;
+  padding: 15px 20px;
+  border: 40px solid red;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: aqua;
+  font-size: 30px;
+
+  width: 200x;
+  height: 200px;
+}
+/* Desafio 3 */
+#box-model-challenge {
+  margin: 15px;
+  padding: 15px;
+  border: 5px solid #459;
+  outline: 5px solid #123;
+  background-color: turquoise;
+}
+.challenge-title {
+  background-color: #000;
+  color: aliceblue;
+  border: none;
+}
+/*  text aligment */
+.text-aligned {
+  text-align: right;
+}
+.container-center {
+  text-align: center;
+  width: 200px;
+  border: 2px solid red;
+  outline: 3px double olive;
+}
+/* Text decoration */
+.underline {
+  text-decoration: underline;
+}
+.line-trough {
+  text-decoration: line-through;
+}
+.remove-underline {
+  text-decoration: none;
+  color: purple;
+}
+/* Tranformação de texto */
+.upper {
+  text-transform: uppercase;
+}
+.lower {
+  text-transform: lowercase;
+}
+
+/* Espaçamento */
+.spacing {
+  letter-spacing: 15px;
+}
+
+/* fontes */
+.serif {
+  font-family: serif;
+}
+.seas-serif {
+  font-family: sans-serif;
+}
+.monospace {
+  font-family: monospace;
+}
+.cursive {
+  font-family: cursive;
+}
+.fantasy {
+  font-family: fantasy;
+}
+
+/* Font style */
+.italic {
+  font-style: italic;
+}
+.oblique {
+  font-style: oblique;
+}
+/* Font weight */
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
+}
+.thin {
+  font-weight: 100;
+}
+.bold {
+  font-weight: 600;
+}
+.bolder {
+  font-weight: 900;
+}
+/* Font size */
+.small {
+  font-size: 6px;
+}
+.big {
+  font-size: 78px;
+}
+
+/* Display */
+.inline-box {
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+  margin: 10px;
+  display: inline-block;
+}
+.block {
+  background-color: #459;
+  display: block;
+  margin: 10px;
+}
+/*  invisible*/
+
+.invisible {
+  display: none;
+}
+/* sobre as posições dos elementos */
+/* Static */
+.static {
+  position: static;
+  background-color: #d716c7;
+  color: blue;
+  width: 100px;
+  height: 100px;
+}
+/* relative */
+.relative {
+  position: relative;
+  background-color: #bbb;
+  color: blue;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 50px;
+}
+/* Absolute */
+.Absolute {
+  position: Absolute;
+  background-color: #bbb;
+  color: blue;
+  width: 100px;
+  height: 100px;
+  top: 2px;
+  right: 2px;
+}
+
+/* absolute e relative */
+.relative-container {
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  margin-top: 120px;
+  position: relative;
+}
+.absolute-1,
+.absolute-2 {
+  width: 50px;
+  height: 50px;
+  background-color: #422;
+  position: absolute;
+}
+.absolute-1 {
+  top: 10px;
+  left: 10px;
+}
+.absolute-2 {
+  top: 10px;
+  right: 10px;
+}
+/* fixed */
+.fixed {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+  border: 1px solid blue;
+  margin-top: 120px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+/* sticky */
+.sticky {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 1px solid rgb(9, 255, 0);
+  margin-top: 120px;
+  position: sticky;
+  top: 100px;
+  right: 50px;
+}
+/* z index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+  width: 50px;
+  height: 50px;
+  background-color: #123;
+  position: absolute;
+}
+.absolute-3 {
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.absolute-4 {
+  top: 10px;
+  left: 10px;
+  background-color: #d716c7;
+  z-index: 2;
+}
+
+.absolute-5 {
+  top: 40px;
+  left: 40px;
+  background-color: aqua;
+  z-index: 1;
+}

@@ -1,0 +1,33 @@
+/* Titulo principal */
+#titulo-principal {
+  margin: 10px;
+  background-color: rgb(3, 3, 81);
+  padding: 10px;
+  height: 100px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom: 5px double rgb(180, 135, 21);
+  padding: 10px 10px 10px 10px;
+  outline: 10px double gold;
+}
+.sua-marca {
+  color: azure;
+  text-align: center;
+  border: none;
+}
+.sobre-texto {
+  background-color: grey;
+  border-left: 15px solid black;
+  margin-left: 10px;
+  margin-right: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 5px;
+  height: 400px;
+  outline: 5px double red;
+}
+
+p {
+  font-size: 20px;
+  color: gold;
+}
