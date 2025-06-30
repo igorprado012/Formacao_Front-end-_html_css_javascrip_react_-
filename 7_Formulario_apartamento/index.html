@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/7_Formulario_apartamento/css/styles.css" />
+    <title>Formulário Venda Facil</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Cadastre seu apartamento para vender mais rápido!</h3>
+      </div>
+      <div class="form-container">
+        <div class="form-header">
+          <p>Formulário</p>
+        </div>
+        <div class="form-body">
+          <h1 class="form-litle">Venda fácil seu apartamento!</h1>
+          <p>
+            Descreva as características e marque os opcionais que ele possui
+          </p>
+          <form>
+            <div class="box-input">
+              <label for="title"
+                >Título do anúncio<span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="title"
+                id="title"
+                class="block"
+                placeholder="Um titulo para anunciar seu apartamento"
+                minlength="1"
+                maxlength="50"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="price"
+                >Preço<span class="required-field">*</span></label
+              >
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="block"
+                placeholder="Defina o preço"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="description"
+                >Descrição<span class="required-field">*</span></label
+              >
+              <textarea
+                name="description"
+                id="description"
+                class="block"
+                placeholder="Aqui você coloca os detalhes do seu apartamento, por exemplo: localização, padarias, mercados e farmacias próximos"
+              ></textarea>
+            </div>
+            <div class="box-input">
+              <label for="street-address"
+                >Endereço<span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="street-address"
+                id="street-address"
+                class="block"
+                placeholder="Digite o endereço do seu apartamento"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="model"
+                >Quartos<span class="required-field">*</span></label
+              >
+              <input
+                type="number"
+                name="room"
+                id="room"
+                class="block"
+                placeholder="Digite quantos quartos ele possui"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="garage"
+                >Banheiros<span class="required-field">*</span></label
+              >
+              <input
+                type="number"
+                name="garage"
+                id="garage"
+                class="block"
+                placeholder="Digite quantos banheiros ele possui"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="area"
+                >Área em m²<span class="required-field">*</span></label
+              >
+              <input
+                type="number"
+                name="area"
+                id="area"
+                placeholder="Digite a área em m²"
+                class="block"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <p>Possui elevador: <span class="required-field">*</span></p>
+              <input type="radio" id="yes" name="elevator" />
+              <label for="yes">sim</label>
+              <input type="radio" id="nao" name="geelevatorar" />
+              <label for="no">não</label>
+            </div>
+            <div class="optional-box">
+              <p>Opcionais: <span class="required-field">*</span></p>
+              <ul class="optional-list">
+                <li>
+                  <input
+                    type="checkbox"
+                    id="swimming-pools"
+                    name="optional[]"
+                    value="swimming-pools"
+                  />
+                  <label for="swimming-pools">Piscina</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="academy"
+                    name="optional[]"
+                    value="academy"
+                  />
+                  <label for="academy">Academia</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="steakhouse"
+                    name="optional[]"
+                    value="steakhouse"
+                  />
+                  <label for="steakhouse">Churrasqueira</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="Playground"
+                    name="optional[]"
+                    value="Playground"
+                  />
+                  <label for="Playground">Playground</label>
+                </li>
+              </ul>
+            </div>
+            <div class="optional-box">
+              <ul class="optional-list">
+                <li>
+                  <input
+                    type="checkbox"
+                    id="toy-library"
+                    name="optional[]"
+                    value="toy-library"
+                  />
+                  <label for="toy-library">Brinquedoteca</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="sports-court"
+                    name="optional[]"
+                    value="sports-court"
+                  />
+                  <label for="sports-court"> Quadra esportiva</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="sauna"
+                    name="optional[]"
+                    value="sauna"
+                  />
+                  <label for="sauna">Sauna</label>
+                </li>
+                <li>
+                  <input
+                    type="checkbox"
+                    id="pet-space"
+                    name="optional[]"
+                    value="pet-space"
+                  />
+                  <label for="pet-space"> Espaço pet</label>
+                </li>
+              </ul>
+            </div>
+            <div class="box-input">
+              <p>Fotos do apartamento: <span class="required-field">*</span></p>
+              <input
+                type="file"
+                multiple
+                accept="image/png, image/jpg"
+                id="images"
+                name="images"
+                required
+              />
+            </div>
+            <input type="submit" value="Enviar" class="btn-submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
